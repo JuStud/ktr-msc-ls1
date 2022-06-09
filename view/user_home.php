@@ -32,7 +32,7 @@ $bdd = new Bdd();
         <div class="form_and_data_list">
             <form method="POST" class="card_form">
                 <input type="hidden" name="created_by" value="<?= $_SESSION['user']['name'] ?>"/>
-                <label for="name"> Email address :
+                <label for="name"> Name :
                     <input type="text" name="businessCardData[name]"/>
                 </label>
                 <label for="company_name"> Company name :

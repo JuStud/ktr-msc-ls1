@@ -1,0 +1,8 @@
+.library-detail > h2 {
+    width: 25% !important;
+}
+
+.library-detail > span {
+    width: 65% !important;
+
+}

@@ -1,0 +1,27 @@
+.card_data {
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    width: 75%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card_data > div {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_list_data {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}

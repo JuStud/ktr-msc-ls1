@@ -1,0 +1,38 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: 15%;
+    height: 50%;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 10rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: mintcream;
+    font-style: italic;
+}
+
+.navbar li {
+    padding-bottom: 50%;
+}
+
+.navbar a, #logout {
+    font-size: 2.625rem;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding-bottom: 2%;
+}

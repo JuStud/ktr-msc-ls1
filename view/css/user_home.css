@@ -1,0 +1,134 @@
+@import "myTemplate.css";
+@import "navbar.css";
+@import "cardDesign.css";
+
+
+
+.library-detail {
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.library-detail > h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+    font-style: italic;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+main > form {
+    height: 100%;
+    width: 100%;
+}
+
+.new_card_form {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.new_card_form_content {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 10% 90%;
+    border-radius: 1rem;
+}
+
+.card_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form_and_data_list {
+    background-color: mintcream;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.form_and_data_list > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.form_and_data_list > div > ul li {
+    padding-top: 2%;
+    list-style: none;
+}
+
+.form_nav {
+    /*background-color: mintcream;*/
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.library-list {
+    list-style: none;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element-library {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding-top: 2%;
+}
+
+
+
+.own-lib-settings ul {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 25%;
+}
